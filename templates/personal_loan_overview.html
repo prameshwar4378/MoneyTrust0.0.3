@@ -1,0 +1,1320 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Money Trust</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="John Doe">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/nav_menu.css">
+
+
+  <!-- Icon Font Stylesheet -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- Customized Bootstrap Stylesheet -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+  <!-- animation link -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet" />
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+  <!-- Font Links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@500&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap" rel="stylesheet">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+  </head>
+<style>
+  .links {
+    width: 100%;
+    background-color: #275da9;
+    color: white;
+    padding: 15px;
+  }
+
+  .links a {
+    text-decoration: none;
+  }
+
+.titlepage{
+  text-align: center;
+  margin-top: 30px;
+}
+.titlepage h2{
+  color: #275da9;
+}
+  /* Header Links Section Start */
+
+  
+
+  .header-links {
+    height: auto;
+    width: 98%;
+    background-image: linear-gradient(to top, #064B7B, #0098D7);
+    margin-top: 8px;
+    padding-bottom: 75px;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .waves_img {
+    height: 50px;
+    width: 100%;
+    position: relative;
+    transform: translateY(-3rem);
+    background: url(../img/curve-desktop.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  @media screen and (max-width: 770px) {
+
+
+    .waves_img {
+      height: 50px;
+      width: 100%;
+      position: relative;
+      transform: translateY(-2rem);
+      background: url(../img/curve-mobile.png);
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+
+  }
+
+
+  .banner-btn a {
+    border-radius: 8px;
+    width: 170px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: #0098D7;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+  .banner-btn a span {
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right, #064B7B, #0098D7);
+    z-index: -1;
+    transition: 0.5s;
+  }
+
+  .banner-btn a:hover span {
+    border-radius: 8px;
+    width: 100%
+  }
+
+  .banner-btn a:hover {
+    color: rgb(255, 255, 255);
+  }
+
+
+  @media screen and (max-width: 770px) {
+    .banner-btn a {
+
+      width: 40%;
+
+    }
+  }
+
+  /* Header Link Section Stop */
+
+
+
+
+
+  /*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+  #hero {
+    width: 100%;
+    height: 75vh;
+    background: url("../img/hero-bg.jpg") top left;
+    background-size: cover;
+    position: relative;
+  }
+
+  #hero:before {
+    content: "";
+    background: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  #hero .container {
+    position: relative;
+  }
+
+  #hero h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #222222;
+    font-family: "Poppins", sans-serif;
+  }
+
+  #hero h1 span {
+    color: #106eea;
+  }
+
+  #hero h2 {
+    color: #555555;
+    margin: 5px 0 30px 0;
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  #hero .btn-get-started {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 28px;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: #fff;
+    background: #106eea;
+  }
+
+  #hero .btn-get-started:hover {
+    background: #247cf0;
+  }
+
+  #hero .btn-watch-video {
+    font-size: 16px;
+    transition: 0.5s;
+    margin-left: 25px;
+    color: #222222;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+  }
+
+  #hero .btn-watch-video i {
+    color: #106eea;
+    font-size: 32px;
+    transition: 0.3s;
+    line-height: 0;
+    margin-right: 8px;
+  }
+
+  #hero .btn-watch-video:hover {
+    color: #106eea;
+  }
+
+  #hero .btn-watch-video:hover i {
+    color: #3b8af2;
+  }
+
+  @media (min-width: 1024px) {
+    #hero {
+      background-attachment: fixed;
+    }
+  }
+
+  @media (max-width: 768px) {
+    #hero {
+      height: 100vh;
+    }
+
+    #hero h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+
+    #hero h2 {
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 30px;
+    }
+
+    #hero .btn-get-started,
+    #hero .btn-watch-video {
+      font-size: 13px;
+    }
+  }
+
+  @media (max-height: 500px) {
+    #hero {
+      height: 120vh;
+    }
+  }
+
+
+
+
+
+  
+
+/** Features of Personal Loan section **/
+
+.Services {
+	margin-top: 90px;
+	padding: 60px 0;
+	font-family: Poppins;
+	background-color: #abccfe; 
+	background-repeat: no-repeat; 
+	background-size: 100%;
+}
+
+@media screen and (max-width:990px){
+	.Services {
+		margin-top: 90px;
+		padding: 60px 0;
+		font-family: Poppins;
+		background: none; 
+		background-repeat: no-repeat; 
+		background-size: 100%;
+	}
+} 
+
+.Services .titlepage {
+	text-align: center;
+}
+
+.Services .titlepage h2 {
+	color: #0057c5;
+	padding-bottom: 20px;
+}
+
+.Services .titlepage p {
+	color: black;
+}
+
+.Services .Services-box i {
+	background: white;
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	display: inline-block;
+	padding-top: 19px;
+	box-shadow: 3px 3px 10px;
+}
+
+.Services .Services-box i:hover {
+	background: #ddd;
+}
+
+.Services .Services-box h3 {
+	padding: 20px 0px 20px 0px;
+	font-size: 20px;
+	line-height: 25px;
+	color: black;
+	display: block;
+	font-weight: 500;
+}
+
+.Services .Services-box {
+	text-align: center;
+	background-color: transparent;
+	border-radius: 20px;
+	border: #cecfd7 solid 2px;
+	padding: 10px;
+	transition: ease-in all 0.5s;
+	margin-bottom: 30px;
+	box-shadow: 0px 0px 10px;
+}
+
+.Services .Services-box:hover {
+	background: linear-gradient(to right,#4b88f1,#0677f8);
+	transition: ease-in all 0.5s;
+	cursor: pointer;
+}
+
+.Services .Services-box p {
+	font-size: 16px;
+	line-height: 24px;
+	color: black;
+	text-align: justify;
+}
+
+.read_more {
+	font-size: 16px;
+	background-color: #fff;
+	color: #000;
+	padding: 10px 0px;
+	width: 100%;
+	max-width: 190px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 20px;
+	border-radius:5px;
+	transition: 0.5s;
+}
+
+.read_more:hover {
+	background: #8308eb;
+	color: #fff;
+
+}
+
+/** end Features of Personal Loan **/
+
+
+/* step section start  */
+
+.stepper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.stepper .step{
+  width: 16%;
+}
+.stepper .step-arrow-main{
+  width: 5%;
+  /* height:200px */
+}
+.stepper .step-arrow{
+  width: 100%;
+  /* background: url(../img/right-arrow.gif); */
+  height:100%;
+}
+
+@media screen and (max-width: 770px) {
+ 
+
+  .stepper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.stepper .step{
+  width: 100%;
+}
+.stepper .step-arrow-main{
+  width: 100%;
+  /* height:200px */
+}
+}
+/* step section stop  */
+
+
+
+
+/* related links start  */
+
+.other-links{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  width: 100%;
+  align-items: center;
+}
+
+.other-links a{
+  text-align: center;
+  padding: 7px;
+  margin: 5px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #0057c2;
+}
+
+.other-links a:hover{
+ 
+  background-color: #0057c2;
+  color: #fff;
+  transition: 0.5s;
+  position: relative;
+  transform: translateY(-0.7rem);
+}
+
+
+@media screen and (max-width: 770px) {
+  .other-links{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  align-items: center;
+}
+.other-links a{
+  width: 100%;
+}
+}
+/* related links stop  */
+
+
+
+
+/* Frequentlly Ask Questions Start */
+.faq-menu{
+  width: 100%;
+  text-align: center;
+  border: 2px solid rgb(201, 200, 200);
+  border-radius: 10px;
+  font-size: 0.8rem;
+}
+.faq-menu li{
+  margin: 5px;
+  padding: 5px;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+.faq-menu li a{
+  color: rgb(56, 56, 56);
+}
+.faq-menu li a:hover{
+  color: rgb(56, 56, 56);
+  color: white;
+}
+
+.faq-menu li:hover{
+  background-color: #0057c5;
+  color: white;
+  cursor: pointer;
+}
+
+
+.accordion{
+  border: 2px solid rgb(201, 200, 200);
+  border-radius: 10px;
+  height: 100%;
+}
+/* Frequently Ask Questions stop */
+
+
+
+</style>
+
+<body>
+  <!-- header start -->
+  <header class="header">
+    <div class="container-fluid">
+      <div class="row v-center">
+        <div class="header-item item-left">
+          <div class="logo">
+            <a href="../index.html">
+              <!-- <img src="img/logo.jpg" alt=""> -->
+              <h3>MoneyTrust</h3>
+            </a>
+          </div>
+        </div>
+        <!-- menu start here -->
+        <div class="header-item item-center">
+          <div class="menu-overlay">
+          </div>
+          <nav class="menu">
+            <div class="mobile-menu-head">
+              <div class="go-back"><i class="fa fa-angle-right"></i></div>
+              <div class="current-menu-title"></div>
+              <div class="mobile-menu-close">&times;</div>
+            </div>
+            <ul class="menu-main">
+              <li>
+                <a href="../index.html">Home</a>
+              </li>
+
+              <li class="menu-item-has-children">
+                <a href="#"  class="text-primary">Personal Loan <i class="fa fa-angle-down"></i></a>
+                <div class="sub-menu mega-menu mega-menu-column-4">
+                  <div class="list-item">
+                    <h4 class="title">Personal Loan Optios</h4>
+                    <ul>
+                      <li><a href="personal_loan_overview.html" class="text-primary">Overview</a> </li>
+                      <li><a href="personal_loan_eligibility_criteria.html">Eligibility
+                          Criteria</a></li>
+                      <li><a href="#"  data-toggle="modal" data-target="#exampleModal">EMI Calculator</a>
+                      </li>
+                      <li><a href="#">Interest rate & Processing Fees</a></li>
+                      <li><a href="personal_loan_document_required.html">Document Required</a></li>
+                    </ul>
+                  </div>
+                  <div class="list-item">
+                    <h4 class="title">Links Options </h4>
+                    <ul>
+                      <li><a href="#">Links List</a></li>
+                      <li><a href="#">Links List</a></li>
+                      <li><a href="#">Links List</a></li>
+                      <li><a href="#">Links List</a></li>
+                    </ul>
+                    
+                  </div>
+                 
+                  <div class="list-item">
+                    <img src="../img/sample.png" alt="shop" style="width: 100%;">
+                  </div>
+
+                </div>
+              </li>
+
+
+              <li class="menu-item-has-children">
+                <a href="#">Home Loan <i class="fa fa-angle-down"></i></a>
+                <div class="sub-menu mega-menu mega-menu-column-4">
+                  <div class="list-item">
+                    <h4 class="title">Link Optios</h4>
+                    <ul>
+                      <li><a href="#">Links List 1</a></li>
+                      <li><a href="#">Links List</a></li>
+                      <li><a href="#">Links List</a></li>
+                      <li><a href="#">Links List</a></li>
+                      <li><a href="#">Links List</a></li>
+                    </ul>
+                    
+                  </div>
+                  <div class="list-item">
+                    <h4 class="title">Links Options 3</h4>
+                    <ul>
+                      <li><a href="#">Links List</a></li>
+                      <li><a href="#">Links List</a></li>
+                      <li><a href="#">Links List</a></li>
+                      <li><a href="#">Links List</a></li>
+                    </ul>
+                    
+                  </div>
+                  
+                  <div class="list-item">
+                    <img src="img/sample.png" alt="shop">
+                  </div>
+                </div>
+              </li>
+
+
+
+              <li class="menu-item-has-children">
+                <a href="#">Doctors Loan <i class="fa fa-angle-down"></i></a>
+                <div class="sub-menu mega-menu mega-menu-column-4">
+                  <div class="list-item">
+                    <h4 class="title">Link Optios</h4>
+                    <ul>
+                      <li><a href="#">Links List 1</a></li>
+                      <li><a href="#">Links List</a></li>
+                      <li><a href="#">Links List</a></li>
+                      <li><a href="#">Links List</a></li>
+                      <li><a href="#">Links List</a></li>
+                    </ul>
+                    
+                  </div>
+                  <div class="list-item">
+                    <h4 class="title">Links Options 3</h4>
+                    <ul>
+                      <li><a href="#">Links List</a></li>
+                      <li><a href="#">Links List</a></li>
+                      <li><a href="#">Links List</a></li>
+                      <li><a href="#">Links List</a></li>
+                    </ul>
+                   
+                  </div>
+                  
+                  <div class="list-item">
+                    <img src="img/sample.png" alt="shop">
+                  </div>
+                </div>
+              </li>
+
+
+
+              <li class="menu-item-has-children">
+                <a href="#">Business Loan <i class="fa fa-angle-down"></i></a>
+                <div class="sub-menu mega-menu mega-menu-column-4">
+                  <div class="list-item">
+                    <h4 class="title">Link Optios</h4>
+                    <ul>
+                      <li><a href="#">Links List 1</a></li>
+                      <li><a href="#">Links List</a></li>
+                      <li><a href="#">Links List</a></li>
+                      <li><a href="#">Links List</a></li>
+                      <li><a href="#">Links List</a></li>
+                    </ul>
+                    <h4 class="title">Links Options 2</h4>
+                    <ul>
+                      <li><a href="#">Links List</a></li>
+                      <li><a href="#">Links List</a></li>
+                      <li><a href="#">Links List</a></li>
+                    </ul>
+                  </div>
+                  <div class="list-item">
+                    <h4 class="title">Links Options 3</h4>
+                    <ul>
+                      <li><a href="#">Links List</a></li>
+                      <li><a href="#">Links List</a></li>
+                      <li><a href="#">Links List</a></li>
+                      <li><a href="#">Links List</a></li>
+                    </ul>
+                    <h4 class="title">Links Options 4</h4>
+                    <ul>
+                      <li><a href="#">Links List</a></li>
+                      <li><a href="#">Links List</a></li>
+                      <li><a href="#">Links List</a></li>
+                      <li><a href="#">Links List</a></li>
+                    </ul>
+                  </div>
+                  <div class="list-item">
+                    <h4 class="title">Links Options 3</h4>
+                    <ul>
+                      <li><a href="#">Links List</a></li>
+                      <li><a href="#">Links List</a></li>
+                      <li><a href="#">Links List</a></li>
+                      <li><a href="#">Links List</a></li>
+                      <li><a href="#">Links List</a></li>
+                      <li><a href="#">Links List</a></li>
+                      <li><a href="#">Links List</a></li>
+                      <li><a href="#">Links List</a></li>
+                      <li><a href="#">Links List</a></li>
+                    </ul>
+                  </div>
+                  <div class="list-item">
+                    <img src="img/sample.png" alt="shop">
+                  </div>
+                </div>
+              </li>
+
+
+
+              <li class="menu-item-has-children">
+                <a href="#">Credit Card <i class="fas fa-angle-down"></i></a>
+                <div class="sub-menu single-column-menu">
+                  <ul>
+                    <li><a href="#">Standard Layout</a></li>
+                    <li><a href="#">Grid Layout</a></li>
+                    <li><a href="#">single Post Layout</a></li>
+                  </ul>
+                </div>
+              </li>
+ 
+            </ul>
+          </nav>
+        </div>
+
+        <div class="mobile-menu-trigger">
+          <span></span>
+        </div>
+      </div>
+    </div>
+    </div>
+  </header>
+  <!-- header end -->
+
+  
+  
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Massege</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <h3>We are Update soon...!</h3>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  <center>
+    <div class="header-links">
+      <div class="banner-btn">
+        <a href="#" style=" color: white; background: linear-gradient(to right, #064B7B , #0098D7);"
+          data-aos="fade-down" data-aos-delay="100" data-aos-duration="1000"> <span></span> Overview </a>
+        <a href="personal_loan_eligibility_criteria.html" data-aos="fade-down" data-aos-delay="150" data-aos-duration="1000"> <span></span> Eligibility Criteria </a>
+        <a href="#" data-aos="fade-down" data-aos-delay="150" data-aos-duration="1000"  data-toggle="modal" data-target="#exampleModal"> <span></span> EMI Calculator </a>
+        <a href="personal_loan_document_required.html" data-aos="fade-down" data-aos-delay="150" data-aos-duration="1000"> <span></span> Document Required </a>
+      </div>
+    </div>
+    <div class="waves_img"></div>
+
+  </center>
+
+  <div class="links">
+    <a href="../index.html" class="text-light">Home/</a>
+    <a href="#" class="text-light">Personal Loan/</a>
+    <a href="#" class="text-warning"> Overview</a>
+  </div>
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container" data-aos="zoom-out" data-aos-delay="100">
+      <h1>Personal Loan <span>Overview</span></h1>
+      <h4 style="font-weight: 1000;">What is a Personal Loan?</h4>
+      <p>By virtue of being an unsecured form of credit, you can avail a Personal Loan without pledging any collateral
+        with minimal documentation, and easy eligibility criteria. This kind of instant loan does not have any end-usage
+        restrictions, which means you could finance a royal wedding, a trip to your dream destination, renovate your
+        home, deal with a medical emergency, or finance the expansion of your business.</p>
+      <p>Ruloans will connect you to a lending partner of your choice, and our team will take you through the process
+        quickly with ease. Choose from our catalog of Personal Loan Partners of Banks and NBFCs according to your needs
+        and convenience for rapid approval and swift disbursal of your personal loan.</p>
+    </div>
+  </section><!-- End Hero -->
+
+
+
+
+  <div class="container">
+    <div class="text-center mt-4">
+      <h1 style=" font-family: 'Oleo Script', cursive;" class="text-primary">Different Types of Personal Loans for your
+        Special Needs</h1>
+      <p>Our lending partners will be more than pleased to offer you a personal loan for your urgent upfront needs. At
+        Ruloans, you can opt for online personal loans or loans offline when you need money for expenses</p>
+    </div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators text-primary">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"  style="border: 5px solid gray;border-radius: 5px; position: relative; transform: translateY(3rem); "></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"  style="border: 5px solid gray;border-radius: 5px; position: relative; transform: translateY(3rem); "></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"  style="border: 5px solid gray;border-radius: 5px; position: relative; transform: translateY(3rem); "></li>
+    </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row w-100 text-center">
+            <div class="col-sm-6 text-center"><img src="../img/marriage_loan.jpg" alt=""></div>
+            <div class="col-sm-6">
+              <h4 style=" font-family: 'Oleo Script', cursive;" class="text-primary">Marriage Loan
+              </h4>
+              <p style="text-align: justify;">Have you placed your wedding in the shopping cart with exquisite location
+                and dreamy décor? If yes then you need not worry about ready funds to drive your wedding. Ruloans
+                Personal Loan is tailor-made to host all your financial needs. A picture-perfect wedding demands
+                expenses of various kinds including- caterer, venue, décor and more. To fund all your wedding needs,
+                Ruloans assists you in meeting the right lender and borrow right!</p>
+              <ul style="text-align: left;">
+                <li><i class="fa fa-arrow-circle-right text-primary" aria-hidden="true"></i> Up to Rs. 25 lakhs Instant
+                  Marriage Loan</li>
+                <li><i class="fa fa-arrow-circle-right text-primary" aria-hidden="true"></i> Up to 72 Months Repayment
+                  Period</li>
+                <li><i class="fa fa-arrow-circle-right text-primary" aria-hidden="true"></i> Flexible EMIS</li>
+                <li><i class="fa fa-arrow-circle-right text-primary" aria-hidden="true"></i> Attractive Interest Rates
+                </li>
+                <li><i class="fa fa-arrow-circle-right text-primary" aria-hidden="true"></i> Easy documentation</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row w-100 text-center">
+            <div class="col-sm-6 text-center"><img src="../img/medical_loan.jpg" alt=""></div>
+            <div class="col-sm-6">
+              <h4 style=" font-family: 'Oleo Script', cursive;" class="text-primary">Mediacal Emergency Loan
+              </h4>
+              <p style="text-align: justify;">A medical emergency can knock on your door when you least expect it. Unfortunately, most of us aren't prepared enough and face the turmoil it brings along. No warning situation can land you in trouble as these unforeseen expenses are unthought and unplanned. Ruloans stands tall with you in need of an hour. With multiple Personal loan options and quick disbursals, you can claim a hassle-free loan to attend your contingency.</p>
+              <ul style="text-align: left;">
+                <li><i class="fa fa-arrow-circle-right text-primary" aria-hidden="true"></i> Up to Rs. 25 lakhs Medical Emergency Loan</li>
+                <li><i class="fa fa-arrow-circle-right text-primary" aria-hidden="true"></i> Up to 72 Months Repayment Period</li>
+                <li><i class="fa fa-arrow-circle-right text-primary" aria-hidden="true"></i> Flexible EMIS</li>
+                <li><i class="fa fa-arrow-circle-right text-primary" aria-hidden="true"></i> Attractive Interest Rates</li>
+                <li><i class="fa fa-arrow-circle-right text-primary" aria-hidden="true"></i> Easy documentation</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row w-100 text-center">
+            <div class="col-sm-6 text-center"><img src="../img/education-loan.jpg" alt=""></div>
+            <div class="col-sm-6">
+              <h4 style=" font-family: 'Oleo Script', cursive;" class="text-primary">Education Loan</h4>
+              <p style="text-align: justify;">Getting a degree or honing your skills demand a considerable amount of money especially when you aim for overseas. While the cost of education continues to soar, it is imperative to plan your finances ahead of admission. Education is a tool to change the world and money must not be an obstacle to knowledge. With Ruloans, fulfil your dream of studying in a world-class university in India or overseas. Once your application in the college or university you envisioned gets accepted, Ruloans assists you in acquiring the right Personal Loan at the best available rate to fund your dream.</p>
+              <ul style="text-align: left;">
+                <li><i class="fa fa-arrow-circle-right text-primary" aria-hidden="true"></i> Up to Rs. 25 lakhs Instant Education Loan</li>
+                <li><i class="fa fa-arrow-circle-right text-primary" aria-hidden="true"></i> Up to 72 Months Repayment Period</li>
+                <li><i class="fa fa-arrow-circle-right text-primary" aria-hidden="true"></i>Flexible EMIS</li>
+                <li><i class="fa fa-arrow-circle-right text-primary" aria-hidden="true"></i> Attractive Interest Rates</li>
+                <li><i class="fa fa-arrow-circle-right text-primary" aria-hidden="true"></i> Easy documentation</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+
+
+
+
+  
+
+      <!-- Features of Personal Loan  -->
+      <div id="service" class="Services"  >
+        <div class="container">
+           <div class="row">
+              <div class="col-md-12">
+                 <div class="titlepage">
+                    <h2 style=" font-family: 'Oleo Script', cursive;">Features of Personal Loan</h2>
+                    <p>What makes Personal Loan a Perfect Choice!</p><br>
+                 </div>
+              </div>
+           </div>
+           <div class="row">
+
+              <div class="col-xl-4 col-lg-4 col-md-3 col-sm-12" >
+                 <div class="Services-box" style="height: 92%;"  data-aos="fade-down" data-aos-delay="50" data-aos-duration="1500">
+                    <h3>No Collateral or Security</h3>
+                    <p>No collateral or mortgage to avail a personal loan. Loan approval is based on your credit score, credit report, repayment history, and other criteria.</p>
+                 </div>
+              </div>
+
+              <div class="col-xl-4 col-lg-4 col-md-3 col-sm-12" >
+                 <div class="Services-box" style="height: 92%;"  data-aos="fade-down" data-aos-delay="200" data-aos-duration="1500">
+                    <h3>End-Usage-Flexible</h3>
+                    <p>No end-usage restrictions on a Personal Loan gives you the liberty to meet multiple purposes including medical emergencies, holidays, business, or debt consolidation.</p>
+                 </div>
+              </div>
+
+              <div class="col-xl-4 col-lg-4 col-md-3 col-sm-12" >
+                <div class="Services-box" style="height: 92%;"  data-aos="fade-down" data-aos-delay="350" data-aos-duration="1500">
+                   <h3>Flexible Tenure</h3>
+                   <p>You may avail a loan for a flexible period ranging from 12 months and 72 months.</p>
+                </div>
+             </div>
+
+             <div class="col-xl-4 col-lg-4 col-md-3 col-sm-12" >
+                <div class="Services-box" style="height: 92%;"  data-aos="fade-down" data-aos-delay="50" data-aos-duration="1500">
+                   <h3>Minimal Documentation</h3>
+                   <p>Identity proof, proof of residence or address, and income proof are the only requirement for a personal loan.</p>
+                </div>
+             </div>
+             
+             <div class="col-xl-4 col-lg-4 col-md-3 col-sm-12" >
+              <div class="Services-box" style="height: 92%;"  data-aos="fade-down" data-aos-delay="200" data-aos-duration="1500">
+                 <h3>Quick Disbursal</h3>
+                 <p>Once approved, disbursal of your personal loan happens within a few hours. If you avail a pre-approved personal loan, the disbursal would be as short as a few minutes.</p>
+              </div>
+           </div>
+
+           <div class="col-xl-4 col-lg-4 col-md-3 col-sm-12" >
+              <div class="Services-box" style="height: 92%;"  data-aos="fade-down" data-aos-delay="350" data-aos-duration="1500">
+                 <h3>Flexible Loan Amount</h3>
+                 <p>Factors determining your loan value are repayment history, monthly income, age, profession, employer reputation, etc.</p>
+              </div>
+           </div>
+           
+           </div>
+        </div>
+     </div>
+     <!-- end Features of Personal Loan -->
+ 
+
+<!-- Stepper Start -->
+<div class="container">
+  <div class="row  mt-4">
+    <div class="col-md-12">
+       <div class="text-center">
+          <h2 style=" font-family: 'Oleo Script', cursive; " class="text-primary">How to apply for a Personal Loan</h2>
+          <p>Get Personal Loan in no time with these easy steps!</p><br>
+       </div>
+    </div>
+ </div>
+  <div class="stepper" >
+    <div class="step">
+      <div style="width: 90%; margin: 10px; border-radius: 10px; background: gray;">
+        <h5 class="alert alert-primary">Check</h5>
+      </div>
+    </div>
+    <div class="step-arrow-main"><div class="step-arrow"><i class="fa fa-arrow-circle-right"></i></div></div>
+    <div class="step">
+      <div style="width: 90%; margin: 10px; border-radius: 10px; background: gray;">
+        <h5 class="alert alert-primary">Apply</h5>
+      </div>
+    </div>
+    <div class="step-arrow-main"><div class="step-arrow"><i class="fa fa-arrow-circle-right"></i></div></div>
+    <div class="step">
+      <div style="width: 90%; margin: 10px; border-radius: 10px; background: gray;">
+        <h5 class="alert alert-primary">Fill</h5>
+      </div>
+    </div>
+    <div class="step-arrow-main"><div class="step-arrow"><i class="fa fa-arrow-circle-right"></i></div></div>
+    <div class="step">
+      <div style="width: 90%; margin: 10px; border-radius: 10px; background: gray;">
+        <h5 class="alert alert-primary">Submit</h5>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Stepper Stop -->
+
+
+
+
+
+
+  <!-- Other Links start  -->
+  <section style="background-color: #abccfe; width: 100%;">
+    <div class="container text-center " style="margin-top: 20px;">
+      
+      <div class="row text-center">
+        <div class="col-md-12 text-center">
+           <div class="titlepage text-center">
+              <h2 style=" font-family: 'Oleo Script', cursive;" class="text-primary">Related</h2>
+           </div>
+        </div>
+    
+        <h4 class="text-left">Banks</h4>
+        <div class="banks other-links text-center">
+          <a href="#">Axis Bank</a>
+          <a href="#">Kotak Mahindra Bank</a>
+          <a href="#">ICICI Bank</a>
+          <a href="#">HDFC Bank</a>
+          <a href="#">Bank Of Maharashtra</a>
+          <a href="#">Bank of Baroda</a>
+          <a href="#">Bajaj Finserv Bank</a>
+          <a href="#">Yes bank</a>
+        </div>
+        
+        <h4 class="text-left">Locations</h4>
+        <div class="banks other-links text-center mb-4">
+          <a href="#">Aurangabad</a>
+          <a href="#">Jalna</a>
+          <a href="#">Pune</a>
+          <a href="#">Nashik</a>
+          <a href="#">Mumbai</a>
+          <a href="#">Amrawati</a>
+          <a href="#">Washim</a>
+          <a href="#">Wardha</a>
+          <a href="#">Dhule</a>
+          <a href="#">Ahemadnagar</a>
+          <a href="#">Nanded</a>
+        </div>
+     </div>
+     
+    </div>
+    
+    </section>
+      <!-- Other Links Stop  -->
+    
+
+<!-- Frequently Asked Questions Start  -->
+<section id="frequently_ask_questions">
+<div class="container">
+
+  <div class="row">
+    <div class="col-md-12">
+       <div class="titlepage">
+          <h2 style=" font-family: 'Oleo Script', cursive;">Frequently Asked Questions</h2>
+          <p>If you spend a lot of your time answering emails or social media queries, an FAQ can be a real timesaver</p><br>
+       </div>
+    </div>
+ </div>
+ 
+  <div class="row">
+    <div class="col-sm-3 text-center">
+      <h4 style="background: #0057c5; color: white; border-radius: 10px; margin-top: 10px;">Related Questions</h4>
+      <div class="faq-menu">
+      <ul>
+        <li class="faq-menu-option" onclick="overview_accordion()"><div style="float: left;">Overview</div><div style="float: right;">   <i class="fa fa-angle-right" style="text-align: right;"></i></div><br></li>
+        <li class="faq-menu-option" onclick="eligibility_criteria_and_calculator_accordion()"><div style="float: left;">Eligibility Criteria & Calculator</div><div style="float: right;">   <i class="fa fa-angle-right" style="text-align: right;"></i></div><br></li>
+        <li class="faq-menu-option" onclick="emi_calculator_accordion()"><div style="float: left;">EMI Calculator</div><div style="float: right;">   <i class="fa fa-angle-right" style="text-align: right;"></i></div><br></li>
+        <li class="faq-menu-option"><div style="float: left;">Document Required</div><div style="float: right;">   <i class="fa fa-angle-right" style="text-align: right;"></i></div><br></li>
+      </ul>
+      </div>
+    </div>
+    <div class="col-sm-9">
+
+
+      <!--==============================
+        Overview Accordion   
+        =================================-->
+
+      <div class="accordion accordion-flush" id="accordion_overview" class="accordion_overview" style="margin-top: 10px">
+        <center>
+          <h3 >Overview</h3>
+        </center>
+        <div class="accordion-item" >
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              What is personal loan ?
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordion_overview">
+            <div class="accordion-body">An unsecured borrowing, the term Personal Loan implies an amount of money borrowed for a variety of purposes. This multi-purpose loan has no end-usage restrictions, and can be used to consolidate debt, pay for home renovation, organize a wedding, or any other purpose the borrower deems fit. The borrowing has to be repaid over a period with interest along with other fees and charges.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Why do people take personal Loan ?
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordion_overview">
+            <div class="accordion-body">Personal Loans are collateral-free unsecured loans offered by almost all Banks and NBFCs, and are approved within 24 hours to 7 business days. These funds are multi-purpose loans without end-usage restrictions, and thus can be used for varied purposes ranging from emergencies to vacations. Easy documentation and quick approval makes these collateral-free loans easy to avail and hassle-free in times of need.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              what is maximum amount anyone can get ?
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordion_overview">
+            <div class="accordion-body">Most Banks and NBFCs offer you a personal loan amount to the tune of Rs. 25 Lakhs as an individual after a check on your age, employment, income, and creditworthiness. In case, you are a salaried person, you may be allowed to apply for a loan amount up to 20 times your monthly income at your lender's discretion.</div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!--==============================
+        Eligibility Criteria & Calculator  
+        =================================-->
+
+        <div class="accordion accordion-flush" id="accordion_eligibility_criteria_and_calculator" class="accordion_eligibility_criteria_and_calculator"  style="margin-top: 10px">
+          <center>
+            <h3 >Eligibility Criteria & Calculator</h3>
+          </center>
+          <div class="accordion-item" >
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                What is the age limit for personal loan ?
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordion_eligibility_criteria_and_calculator">
+              <div class="accordion-body">Ordinarily, a lending institution will offer you a personal loan if you are aged between 21 to 65 years of age. Depending on the lender, a salaried person aged up to 60 years, and a self-employed person aged up to 65 years may avail a personal loan.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                When will a bank reject my personal loan application ?
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordion_eligibility_criteria_and_calculator">
+              <div class="accordion-body">When you apply for a personal loan, lenders check your willingness and ability to repay in relation to your credit history as a measure of your willingness to return the loan amount, and your income as a benchmark for your ability to repay. Here are a few reasons for loan rejection.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                what credit score Required for 50,000 personal loan ?
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordion_eligibility_criteria_and_calculator">
+              <div class="accordion-body">Most Banks and NBFCs offer you a personal loan amount to the tune of Rs. 25 Lakhs as an individual after a check on your age, employment, income, and creditworthiness. In case, you are a salaried person, you may be allowed to apply for a loan amount up to 20 times your monthly income at your lender's discretion.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                how does personal loan impact my credit score ?
+              </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordion_eligibility_criteria_and_calculator">
+              <div class="accordion-body">A personal loan can help raise your credit score when repaid in time. A personal loan may not be bad for your credit score, but may affect your overall score over a short period in which obtaining a new loan may be difficult until repayment. Paying of a personal loan in time helps build your credit score positively.</div>
+            </div>
+          </div>
+        </div>
+  
+        
+      <!--==============================
+        EMI Calculator 
+        =================================-->
+
+        <div class="accordion accordion-flush" id="accordion_emi_calculator" class="accordion_emi_calculator"  style="margin-top: 10px">
+          <center>
+            <h3 >EMI Calculator</h3>
+          </center>
+          <div class="accordion-item" >
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                What is EMI (Eqal Monthly Instalment) ?
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordion_emi_calculator">
+              <div class="accordion-body">The term Equated Monthly Income or EMI refers to a fixed amount of money paid by a borrower to a lender at a pre-agreed date every month. An EMI includes both the interest and the principal amount payable each month over a specified period until you pay off your Personal Loan completely. Other than Personal Loans, Home Loans, Business Loans, Loans Against Property, Car and Auto Loans, and some other types of loans accept this method of loan repayment.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                How to use personal loan EMI Calculator ?
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordion_emi_calculator">
+              <div class="accordion-body">Ruloans' Personal Loan EMI Calculator has three form fields for you to enter the data required to calculate your personal loan EMI. Personal Loan Amount, Rate of Interest, and Loan Tenure in Months. You don't need to manually key in the day, simply move the slider to the preferred values. Three types of numeric results will appear simultaneously as you move the sliders. The results are as follows.</div>
+            </div>
+          </div>
+        </div>
+  
+    </div>
+  </div>
+</div>
+</section>
+<!-- Frequently Asked Questions Stop  -->
+
+
+
+
+
+  <!-- Footer Start -->
+  <div class="container-fluid  footer text-light mt-5 py-5">
+    <div class="container py-5">
+      <div class="row g-5">
+        <div class="col-lg-3 col-md-6 mt-3">
+          <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Get In
+            Touch</h4>
+          <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3" style="margin: 7px;"></i>Orginisation office
+            address, 112233</p>
+          <p class="mb-2"><i class="fa fa-envelope text-primary me-3" style="margin: 7px;"></i>moneytrust@gmail.com</p>
+          <p class="mb-0"><i class="fa fa-phone-alt text-primary me-3" style="margin: 7px;"></i>+91-8888888888</p>
+        </div>
+        <div class="col-lg-3 col-md-6 mt-3">
+          <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Quick
+            Links</h4>
+          <div class="d-flex flex-column justify-content-start">
+            <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2" style="margin: 7px;"></i>Home</a>
+            <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2" style="margin: 7px;"></i>About Us</a>
+            <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2" style="margin: 7px;"></i>Our
+              Services</a>
+            <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2" style="margin: 7px;"></i>Meet The
+              Team</a>
+            <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2" style="margin: 7px;"></i>Latest
+              Blog</a>
+            <a class="text-light" href="#"><i class="fa fa-angle-right me-2" style="margin: 7px;"></i>Contact Us</a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mt-3">
+          <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Popular
+            Links</h4>
+          <div class="d-flex flex-column justify-content-start">
+            <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2" style="margin: 7px;"></i>Home</a>
+            <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2" style="margin: 7px;"></i>About Us</a>
+            <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2" style="margin: 7px;"></i>Our
+              Services</a>
+            <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2" style="margin: 7px;"></i>Meet The
+              Team</a>
+            <a class="text-light mb-2" href="#"><i class="fa fa-angle-right me-2" style="margin: 7px;"></i>Latest
+              Blog</a>
+            <a class="text-light" href="#"><i class="fa fa-angle-right me-2" style="margin: 7px;"></i>Contact Us</a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mt-3">
+          <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Newsletter
+          </h4>
+
+          <h6 class="text-primary text-uppercase mt-4 mb-3">Follow Us</h6>
+          <div class="d-flex">
+            <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#" style="margin: 5px;"><i
+                class="fab fa-twitter"></i></a>
+            <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#" style="margin: 5px;"><i
+                class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="#" style="margin: 5px;"><i
+                class="fab fa-linkedin-in"></i></a>
+            <a class="btn btn-lg btn-primary btn-lg-square rounded-circle" href="#" style="margin: 5px;"><i
+                class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid  text-light border-top border-secondary py-4" style="background-color: rgb(20, 34, 78);">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-md-6 text-center text-md-start">
+          <p class="mb-md-0">&copy; <a class="text-primary" href="#">MoneyTrust</a>. All Rights Reserved.</p>
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <p class="mb-0">Designed by <a class="text-primary" href="www.snyamtech.com">SnyamTech Software Pvt.Ltd</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer End -->
+
+<script>
+
+
+    document.getElementById('accordion_overview').style.display='block';
+    document.getElementById('accordion_eligibility_criteria_and_calculator').style.display='none';
+    document.getElementById('accordion_emi_calculator').style.display='none';
+
+
+  function overview_accordion(){
+    document.getElementById('accordion_overview').style.display='block';
+    document.getElementById('accordion_eligibility_criteria_and_calculator').style.display='none';
+    document.getElementById('accordion_emi_calculator').style.display='none';
+  }
+  function eligibility_criteria_and_calculator_accordion(){
+    document.getElementById('accordion_overview').style.display='none';
+    document.getElementById('accordion_eligibility_criteria_and_calculator').style.display='block';
+    document.getElementById('accordion_emi_calculator').style.display='none';
+  }
+  function emi_calculator_accordion(){
+    document.getElementById('accordion_overview').style.display='None';
+    document.getElementById('accordion_eligibility_criteria_and_calculator').style.display='none';
+    document.getElementById('accordion_emi_calculator').style.display='block';
+  }
+</script>
+
+  <!-- scrolling animation    -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init(); {
+      duration: 2000;
+    }
+  </script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="../js/nav_menu.js"></script>
+</body>
+
+</html>
